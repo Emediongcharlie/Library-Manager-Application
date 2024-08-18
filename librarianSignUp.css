@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.signUpContainer{
+    background-color: rgb(228, 216, 182);
+    height: 630px;
+    display: flex;
+}
+
+#signUpInfo{
+    border-color: white;
+    border-width: 10px;
+    background-color: rgb(160, 127, 17);
+    width: 500px;
+    margin: auto;
+    padding-top: 50px;
+    height: 450px;
+    justify-content: center;
+    text-align: center;
+    color: rgb(228, 216, 182);;
+    
+}
+
+.intro{
+    padding-bottom: 40px;
+}
+.createIntro{
+    padding-bottom: 20px;
+}
+
+.firstname{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.lastname{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.email{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.username{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.password{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.create{
+    width: 150px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.create-title{
+    margin-right: 10px;
+}

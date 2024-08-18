@@ -1,0 +1,92 @@
+#signUpInfoPopUpBox{
+    z-index: 9998;
+    /* position: fixed; */
+    /* position: relative; */
+    background-color: rgb(160, 127, 17);
+    border-color: red;
+    border-radius: 10px;
+    top: 10px;
+    /* left: 100px; */
+    color: rgb(228, 216, 182);
+    font-size: 30px;
+    text-decoration: none;
+    width: 40%;
+    height: 75%;
+    margin: 5%;
+    transform: translate(-50% -50%) scale(1.25);
+    /* opacity: 0; */
+    /* transition: opacity 200ms ease-in-out 0ms
+                top 0ms ease-in-out 200ms 
+                
+                transform 20ms ease-in-out 0ms */ 
+}
+
+#signUpInfoPopUpBox.active {
+    top: 50%;
+    transform: translate(-50% -50%) scale(1);
+    /* opacity: 1; */
+    /* transition: opacity 200ms ease-in-out 0ms
+                
+                transform 20ms ease-in-out 0ms
+                top 0ms ease-in-out 0ms */
+}
+
+.signUpContainer{
+    background-color: rgb(228, 216, 182);
+    /* position: absolute; */
+    height: 600px;
+    width: 1230px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+/* .close-button{
+    font-weight: bold;
+    text-align: center;
+    justify-content: left;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(228, 216, 182);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    width: 20px;
+    cursor: pointer;
+} */
+
+.center{
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.author{ 
+    height: 30px;
+    width: 350px;
+    border-radius: 10px;
+    border-color: rgb(228, 216, 182);
+}
+
+.create{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    border-color: rgb(228, 216, 182);
+}
+
+.create-title{
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.create-title a{
+    text-decoration: none;
+}
+
+
+
